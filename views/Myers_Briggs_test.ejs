@@ -12,8 +12,18 @@
     <!-- Header 2 -->
     <h2>Based on "The Keirsey Temperment Sorter II."</h2>
 
+    <% for (var x = 0; x < 10; x++) { %> 
+    <!-- Test Question -->
+     <!-- These question will need assigned letter values. E||I, S||N, T||F, P||J. -->
+     <p>"Would you rather..."</p>
+     <p>A? ....</p>
+     <p>B? ....</p>
     <!-- Test Button -->
-    <button onclick="alert('You clicked a button!')">Test</button>
+     <!-- Button will need to trigger the function described below. -->
+    <p><button onclick="alert('You chose answer A!')">Answer A</button> or <button onclick="alert('You chose answer B!')">Answer B</button> ? </p>
+    <% }; %>
 
+    <!-- Need a function to say: if the user says A, then add 1 to A. If the user says B, then add 1 to B. Etc. -->
+     <!-- Need a function that alternates the sums of A and B based on the Questions assigned Letter values. -->
 </body>
 </html>
